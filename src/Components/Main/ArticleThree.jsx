@@ -1,6 +1,6 @@
 const ArticleThree = (probs) => {
     return (
-        <article className="article">
+        <article className="articleThree">
 <h2>HVORDAN KAN JEG BIDRAGE?</h2>
 <img src={require("../../Images/Icon-Checklist.png")} alt="CO2" />
 <h5>Hvordan belaster du miljøet mindst muligt i dagligdagen?</h5>
@@ -15,7 +15,7 @@ const ArticleThree = (probs) => {
 <p>- Du kan påvirke CO2 balancen, både ved at ændre små ting i din
  hverdag, eller ved aktivt deltage i kampen for et bedre miljø.</p>
 <a href="title">Læs mere</a>
-<img src="" alt="" />
+<img src={require("../../Images/Spacer-03.png")} alt="" />
         </article>
     )
 }

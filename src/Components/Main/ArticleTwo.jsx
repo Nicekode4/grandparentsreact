@@ -1,6 +1,6 @@
 const ArticleTwo = (probs) => {
     return (
-        <article className="article">
+        <article className="articleTwo">
 <h2>KLIMA OG MILJØ?</h2>
 <img src={require("../../Images/Icon-Climate.png")} alt="CO2" />
 <h5>Kort om klimaet og miljøet?</h5>
@@ -11,7 +11,7 @@ const ArticleTwo = (probs) => {
 <p>- Ændrede temperaturer og nedbørsmønster påvirker ikke kun kældre og infrastruktur, men også biodiversiteten som planter insekter mm.</p>
 <p>- Din adfærd påvirker klimaet i størrer eller mindre grad.</p>
 <a href="title">Læs mere</a>
-<img src="" alt="" />
+<img src={require("../../Images/Spacer-02.png")} alt="" />
         </article>
     )
 }

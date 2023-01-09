@@ -1,6 +1,6 @@
 const ArticleOne = (probs) => {
     return (
-        <article className="article">
+        <article className="articleOne">
 <h2>HVAD ER CO2?</h2>
 <img src={require("../../Images/Icon-CO2.png")} alt="CO2" />
 <h5>CO2 er en gasart der findes naturligt i Jordens atmosfære.</h5>
@@ -15,7 +15,7 @@ const ArticleOne = (probs) => {
 <p>- Mennesket er den enlige faktor der har den største indflydelse på
  CO2 -balancen på Jorden i dag!</p>
 <a href="title">Læs mere</a>
-<img src="" alt="" />
+<img src={require("../../Images/Spacer-01.png")} alt="" />
         </article>
     )
 }

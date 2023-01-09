@@ -1,6 +1,6 @@
 const ArticleFour = (probs) => {
     return (
-        <article className="article">
+        <article className="articleFour">
 <h2>DELTAG I ARRANGEMENT</h2>
 <img src={require("../../Images/Icon-Arrangement.png")} alt="CO2" />
 <h5>Deltag i et af vores arrangementer og gør en forskel!</h5>
@@ -17,7 +17,6 @@ const ArticleFour = (probs) => {
 <p>- Tilmeld dig eet af vore arrangementer, eller modtag
  information om Klimatossen!</p>
 <a href="title">Læs mere</a>
-<img src="" alt="" />
         </article>
     )
 }

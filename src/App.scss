@@ -1,8 +1,135 @@
-p{
-  width: 30%;
+$blue: #738699;
+$light-blue: #8fa7bf;
+$green: #969973;
+$light-green: #bbbf8f;
+$brown: #8E6758;
+$light-brown: #bfa89d;
+.articleOne{
+  h2{
+    margin-top: 0;
+  }
+  background-color: $brown;
+  margin-bottom: 0;
+  color: white;
+  img{
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+  }
 }
-img{
- width: 10%;
- height: 10%;
- background-color: gray;
+.articleTwo{
+  h2{
+    margin-top: 0;
+  }
+  margin-top: 0;
+  background-color: $blue;
+  margin-bottom: 0;
+  color: white;
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+.articleThree{
+  h2{
+    margin-top: 0;
+  }
+  background-color: $green;
+  margin-bottom: 0;
+  color: white;
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+.articleFour{
+  h2{
+    margin-top: 0;
+  }
+  background-color: $light-brown;
+  margin-bottom: 0;
+  color: white;
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+header{
+  background-image: url("../src/Images/Bg-Hero-Blue.png");
+  background-size: cover;
+  text-align: center;
+  a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 4vw;
+    
+  }
+  article{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    p{
+    color: $light-blue;
+    width: 100%;
+    text-align: right;
+  }
+  }
+  
+  img{
+    width: 90%;
+    padding: 5vw;
+  }
+}
+footer{
+  padding: 3vw;
+  color: white;
+  background-color: $blue;
+  p{
+    margin: 0;
+  }
+  a{
+    color: white;
+    display: block;
+  }
+  form{
+    input{
+    width: 95%;
+    height: 3vh;
+    display: block;
+    margin-bottom: 1vh;
+    background-color: $light-blue;
+    border: none;
+    font-size: large;
+    padding: 1vh;
+
+  }
+  label{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    width: 100%;
+  
+    input{
+      padding: 0;
+      margin-left: 90%;
+      width: 10%;
+      
+    }
+  }
+  button{
+    width: 99%;
+    border: none;
+    background-color: $light-blue;
+    color: white;
+    padding: 1vh;
+    font-size: large;
+  }
+  }
+  img{
+    margin-top: 4vh;
+    width: 100%;
+  }    
+  input::placeholder{
+      color: white
+    }
 }
