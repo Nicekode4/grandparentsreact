@@ -2,7 +2,9 @@ const ArticleThree = (probs) => {
     return (
         <article className="articleThree">
 <h2>HVORDAN KAN JEG BIDRAGE?</h2>
-<img src={require("../../Images/Icon-Checklist.png")} alt="CO2" />
+<div>
+<img className="img1" src={require("../../Images/Icon-Checklist.png")} alt="CO2" />
+<div>
 <h5>Hvordan belaster du miljøet mindst muligt i dagligdagen?</h5>
 <p>- Dit forbrug overordnet herunder din produktion af affald, bidrager til udledning af CO2</p>
 <p>- Fødevareproduktion har stor indflydelse på CO2 balancen, tænk over
@@ -14,8 +16,8 @@ const ArticleThree = (probs) => {
  CO2 -balancen på Jorden i dag!</p>
 <p>- Du kan påvirke CO2 balancen, både ved at ændre små ting i din
  hverdag, eller ved aktivt deltage i kampen for et bedre miljø.</p>
-<a href="title">Læs mere</a>
-<img src={require("../../Images/Spacer-03.png")} alt="" />
+<a href="title">Læs mere</a></div></div>
+<img className="img2" src={require("../../Images/Spacer-03.png")} alt="" />
         </article>
     )
 }

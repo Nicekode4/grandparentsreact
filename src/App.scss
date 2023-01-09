@@ -1,70 +1,116 @@
-$blue: #738699;
+@media screen and (min-width: 600px) {
+
+  $blue: #738699;
 $light-blue: #8fa7bf;
 $green: #969973;
 $light-green: #bbbf8f;
 $brown: #8E6758;
 $light-brown: #bfa89d;
+.img1{
+  width: 90%;
+  padding: 5vw;
+  display: block;
+}
+.img2{
+  width: 100%;
+  display: block;
+}
+h3{
+  color: $blue;
+  font-weight: 300;
+  padding-left: 6vw;
+}
 .articleOne{
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
   h2{
     margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
   }
   background-color: $brown;
   margin-bottom: 0;
   color: white;
-  img{
-    width: 100%;
-    display: block;
-    margin-bottom: 0;
-  }
+
 }
 .articleTwo{
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
   h2{
     margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
   }
   margin-top: 0;
   background-color: $blue;
   margin-bottom: 0;
   color: white;
-  img{
-    width: 100%;
-    display: block;
-  }
+
 }
 .articleThree{
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
   h2{
     margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
   }
   background-color: $green;
   margin-bottom: 0;
   color: white;
-  img{
-    width: 100%;
-    display: block;
-  }
+
 }
 .articleFour{
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
   h2{
     margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
   }
   background-color: $light-brown;
   margin-bottom: 0;
   color: white;
-  img{
-    width: 100%;
-    display: block;
-  }
+
 }
 header{
   background-image: url("../src/Images/Bg-Hero-Blue.png");
   background-size: cover;
   text-align: center;
-  a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 4vw;
-    
-  }
+  
+  
   article{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -79,13 +125,36 @@ header{
     width: 90%;
     padding: 5vw;
   }
+  nav{
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 4vw;
+      height: 4vh;
+      width: 25%;
+      
+  
+    }    
+    a:hover{
+       background-color: $light-blue; 
+      }
+  }
 }
 footer{
   padding: 3vw;
   color: white;
   background-color: $blue;
+  h5:last-of-type{
+   
+    margin: 0; 
+    margin-top: 2vh;
+  }
   p{
     margin: 0;
+    a{
+      text-decoration: none;
+    }
   }
   a{
     color: white;
@@ -113,7 +182,9 @@ footer{
       padding: 0;
       margin-left: 90%;
       width: 10%;
-      
+      accent-color: $light-blue;
+      border: none;
+      color: white;
     }
   }
   button{
@@ -132,4 +203,256 @@ footer{
   input::placeholder{
       color: white
     }
+}
+  
+}
+//
+// //DESKTOP
+//
+@media screen and (min-width: 992px) {
+
+  $blue: #738699;
+$light-blue: #8fa7bf;
+$green: #969973;
+$light-green: #bbbf8f;
+$brown: #8E6758;
+$light-brown: #bfa89d;
+.img1{
+  width: 90%;
+  padding: 5vw;
+  display: block;
+}
+.img2{
+  width: 100%;
+  display: block;
+}
+h3{
+  color: $blue;
+  font-weight: 300;
+  padding-left: 6vw;
+}
+.articleOne{
+  div:first-of-type{
+    display: grid;
+grid-template-columns: 50% 50%;
+div{
+  display: block;
+}
+}
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
+  h2{
+    margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
+  }
+  background-color: $brown;
+  margin-bottom: 0;
+  color: white;
+
+}
+.articleTwo{
+  div:first-of-type{
+    display: grid;
+grid-template-columns: 50% 50%;
+div{
+  display: block;
+}
+}
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
+  h2{
+    margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
+  }
+  margin-top: 0;
+  background-color: $blue;
+  margin-bottom: 0;
+  color: white;
+
+}
+.articleThree{
+  div:first-of-type{
+    display: grid;
+grid-template-columns: 50% 50%;
+div{
+  display: block;
+}
+}
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 7vw;
+  }
+  h2{
+    margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
+  }
+  background-color: $green;
+  margin-bottom: 0;
+  color: white;
+
+}
+.articleFour{
+  div:first-of-type{
+      display: grid;
+  grid-template-columns: 50% 50%;
+  div{
+    display: block;
+  }
+  }
+
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 6vw;
+  }
+  h2{
+    margin-top: 0;
+    text-align: center;
+  }
+  a{
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 2vw;
+  }
+  background-color: $light-brown;
+  margin-bottom: 0;
+  color: white;
+
+}
+header{
+  background-image: url("../src/Images/Bg-Hero-Blue.png");
+  background-size: cover;
+  text-align: center;
+  
+  
+  article{
+    margin-right: 2vw;
+
+    p{
+    color: $light-blue;
+    width: 100%;
+    font-size: 25px;
+
+    text-align: right;
+  }
+  }
+  
+  img{
+    display: block;
+    width: 30%;
+    padding: 5vw;
+  }
+  nav{
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 4vw;
+      height: 4vh;
+      width: 25%;
+      
+  
+    }    
+    a:hover{
+       background-color: $light-blue; 
+      }
+  }
+}
+footer{
+  padding: 3vw;
+  color: white;
+  background-color: $blue;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  h5{
+    font-size: 25px;
+  }
+  h5:last-of-type{
+    margin: 0; 
+    margin-top: 2vh;
+  }
+  p{
+    margin: 0;
+    font-size: 25px;
+    a{
+      text-decoration: none;
+      font-size: 25px;
+    }
+  }
+  a{
+    color: white;
+    display: block;
+    font-size: 25px;
+  }
+  form{
+    input{
+    width: 95%;
+    height: 3vh;
+    display: block;
+    margin-bottom: 1vh;
+    background-color: $light-blue;
+    border: none;
+    font-size: large;
+    padding: 1vh;
+
+  }
+  label{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    width: 100%;
+  
+    input{
+      padding: 0;
+      margin-left: 90%;
+      width: 10%;
+      accent-color: $light-blue;
+      border: none;
+      color: white;
+    }
+  }
+  button{
+    width: 99%;
+    border: none;
+    background-color: $light-blue;
+    color: white;
+    padding: 1vh;
+    font-size: large;
+  }
+  }
+  img{
+    margin-top: 4vh;
+    width: 100%;
+  }    
+  input::placeholder{
+      color: white
+    }
+}
+  
 }
