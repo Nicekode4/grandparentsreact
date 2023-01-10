@@ -11,9 +11,9 @@ const Header = () => {
                 
             </article>
             <nav>
-                    <a href="title">Start</a>
+                    <a href="start.html">Start</a>
                     <a href="title">Dit CO2</a>
-                    <a href="title">Clean up</a>
+                    <a href="cleanup.html">Clean up</a>
                     <a href="title">Tilmeld dig</a>
                 </nav>
         </header>

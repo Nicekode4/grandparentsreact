@@ -19,4 +19,17 @@ function App() {
   );
 }
 
-export default App;
+function Clean() {
+  return (
+    <div className="App">
+      <Header />
+      <ArticleOne />
+      <ArticleTwo />
+      <ArticleThree />
+      <ArticleFour />
+      <Footer />
+    </div>
+  );
+}
+
+export { App, Clean };
