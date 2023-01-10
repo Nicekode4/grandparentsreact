@@ -1,11 +1,18 @@
-@media screen and (min-width: 600px) {
-
   $blue: #738699;
 $light-blue: #8fa7bf;
 $green: #969973;
 $light-green: #bbbf8f;
 $brown: #8E6758;
 $light-brown: #bfa89d;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+  font-family: Open Sans;
+}
+
+@media screen and (min-width: 600px) {
+
+
 .img1{
   width: 90%;
   padding: 5vw;
@@ -24,11 +31,14 @@ h3{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -45,11 +55,14 @@ h3{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -67,11 +80,14 @@ h3{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -88,11 +104,14 @@ h3{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -145,6 +164,12 @@ footer{
   padding: 3vw;
   color: white;
   background-color: $blue;
+  #bottomImg1{
+    display: none;
+  }
+  #bottomImg2{
+    display: block;
+  }
   h5:last-of-type{
    
     margin: 0; 
@@ -211,12 +236,6 @@ footer{
 //
 @media screen and (min-width: 992px) {
 
-  $blue: #738699;
-$light-blue: #8fa7bf;
-$green: #969973;
-$light-green: #bbbf8f;
-$brown: #8E6758;
-$light-brown: #bfa89d;
 .img1{
   width: 90%;
   padding: 5vw;
@@ -232,6 +251,9 @@ h3{
   padding-left: 6vw;
 }
 .articleOne{
+  h5{
+    font-size: 24px;
+  }
   div:first-of-type{
     display: grid;
 grid-template-columns: 50% 50%;
@@ -242,11 +264,15 @@ div{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
+    
   }
   a{
     color: white;
@@ -260,6 +286,9 @@ div{
 
 }
 .articleTwo{
+  h5{
+    font-size: 24px;
+  }
   div:first-of-type{
     display: grid;
 grid-template-columns: 50% 50%;
@@ -270,11 +299,14 @@ div{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -289,6 +321,9 @@ div{
 
 }
 .articleThree{
+  h5{
+    font-size: 24px;
+  }
   div:first-of-type{
     display: grid;
 grid-template-columns: 50% 50%;
@@ -299,11 +334,14 @@ div{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -317,6 +355,9 @@ div{
 
 }
 .articleFour{
+  h5{
+    font-size: 24px;
+  }
   div:first-of-type{
       display: grid;
   grid-template-columns: 50% 50%;
@@ -328,11 +369,14 @@ div{
   p{
     width: 90%;
     text-align: left;
-    padding-left: 6vw;
+    padding-left: 4vw;
+    font-size: 22px;
+    font-family: Open Sans;
   }
   h2{
     margin-top: 0;
     text-align: center;
+    font-size: 32px;
   }
   a{
     color: white;
@@ -391,6 +435,14 @@ footer{
   background-color: $blue;
   display: grid;
   grid-template-columns: 50% 50%;
+  #bottomImg2{
+    display: none;
+  }
+  #bottomImg1{
+    width: 50%;
+    margin-top: 9vh;
+    display: block;
+  }
   h5{
     font-size: 25px;
   }
@@ -414,7 +466,8 @@ footer{
   form{
     input{
     width: 95%;
-    height: 3vh;
+    height: 5vh;
+    
     display: block;
     margin-bottom: 1vh;
     background-color: $light-blue;
@@ -446,10 +499,11 @@ footer{
     padding: 1vh;
     font-size: large;
   }
+  margin-bottom: 0;
   }
   img{
-    margin-top: 4vh;
-    width: 100%;
+    margin-top: 0vh;
+    width: 40%;
   }    
   input::placeholder{
       color: white

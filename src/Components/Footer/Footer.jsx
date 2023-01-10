@@ -10,6 +10,7 @@ const Footer = () => {
 <h5>SAMARBEJDSPARTNERE:</h5>
 <a href="https://www.dn.dk/">https://www.dn.dk/</a>
 <a href="http://www.miljoeportal.dk">http://www.miljoeportal.dk</a>
+<img id="bottomImg1" src={require("../../Images/KT-Logo.png")} alt="" />
 </div>
 <form action="" method="post">
     <h2>Ja tak! Jeg vil gerne høre mere.</h2>
@@ -26,8 +27,9 @@ const Footer = () => {
 
     <button type="submit">Send</button>
 
-    <img src={require("../../Images/KT-Logo.png")} alt="" />
+    
 </form>
+<img id="bottomImg2" src={require("../../Images/KT-Logo.png")} alt="" />
         </footer>
     )
 }
