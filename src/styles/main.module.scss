@@ -1,0 +1,281 @@
+@use "./_colors" as *;
+@use "./_fonts" as *;
+
+*{
+    font-family: Open Sans;
+  }
+  
+  @media screen and (min-width: 600px) {
+  
+  
+  .img1{
+    width: 90%;
+    padding: 5vw;
+    display: block;
+  }
+  .img2{
+    width: 100%;
+    display: block;
+  }
+  h3{
+    color: $blue;
+    font-weight: 300;
+    padding-left: 6vw;
+  }
+  .articleOne{
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    background-color: $brown;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  .articleTwo{
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    margin-top: 0;
+    background-color: $blue;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  .articleThree{
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    background-color: $green;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  .articleFour{
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    background-color: $light-brown;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  }
+  //
+  // //DESKTOP
+  //
+  @media screen and (min-width: 992px) {
+  
+  .img1{
+    width: 90%;
+    padding: 5vw;
+    display: block;
+  }
+  .img2{
+    width: 100%;
+    display: block;
+  }
+  h3{
+    color: $blue;
+    font-weight: 300;
+    padding-left: 6vw;
+  }
+  .articleOne{
+    h5{
+      font-size: 24px;
+    }
+    div:first-of-type{
+      display: grid;
+  grid-template-columns: 50% 50%;
+  div{
+    display: block;
+  }
+  }
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+      
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    background-color: $brown;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  .articleTwo{
+    h5{
+      font-size: 24px;
+    }
+    div:first-of-type{
+      display: grid;
+  grid-template-columns: 50% 50%;
+  div{
+    display: block;
+  }
+  }
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    margin-top: 0;
+    background-color: $blue;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  .articleThree{
+    h5{
+      font-size: 24px;
+    }
+    div:first-of-type{
+      display: grid;
+  grid-template-columns: 50% 50%;
+  div{
+    display: block;
+  }
+  }
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    background-color: $green;
+    margin-bottom: 0;
+    color: white;
+  
+  }
+  .articleFour{
+    h5{
+      font-size: 24px;
+    }
+    div:first-of-type{
+        display: grid;
+    grid-template-columns: 50% 50%;
+    div{
+      display: block;
+    }
+    }
+  
+    p{
+      width: 90%;
+      text-align: left;
+      padding-left: 4vw;
+      font-size: 22px;
+      font-family: Open Sans;
+    }
+    h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+    a{
+      color: white;
+      display: block;
+      text-align: right;
+      margin-right: 2vw;
+    }
+    background-color: $light-brown;
+    margin-bottom: 0;
+    color: white;
+  
+  }  
+  }
