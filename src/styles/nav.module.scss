@@ -8,19 +8,20 @@
 @media screen and (min-width: 600px) {
 
   nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
     li{
-      color: white;
-      text-decoration: none;
-      text-transform: uppercase;
-      margin-right: 4vw;
       height: 4vh;
-      width: 25%;
-      
-  
-    }    
-    li:hover{
-       background-color: $light-blue; 
+      width: 5%;
+      a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
       }
+    }
   }
 }
 
@@ -34,14 +35,16 @@
     justify-content: right;
     list-style: none;
     text-align: center;
-    width: 100vw;
+    width: 98vw;
     li{
-      color: white;
-      text-decoration: none;
-      text-transform: uppercase;
-      
+      margin-right: 4vh;
       height: 4vh;
       width: 5%;
+      a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
       
   
     }    

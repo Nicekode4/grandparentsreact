@@ -6,9 +6,6 @@ function Navigation() {
     <nav>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/about'>About</NavLink></li>
-<li>Home</li>
-<li>About</li>
-<li>Products</li>
     </nav>
   )
 }
