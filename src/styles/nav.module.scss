@@ -1,0 +1,53 @@
+@use "./_colors" as *;
+@use "./_fonts" as *;
+
+*{
+    font-family: Open Sans;
+  }
+
+@media screen and (min-width: 600px) {
+
+  nav{
+    li{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 4vw;
+      height: 4vh;
+      width: 25%;
+      
+  
+    }    
+    li:hover{
+       background-color: $light-blue; 
+      }
+  }
+}
+
+//
+// //DESKTOP
+//
+@media screen and (min-width: 992px) {
+
+  nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    li{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      
+      height: 4vh;
+      width: 5%;
+      
+  
+    }    
+    li:hover{
+       background-color: $light-blue; 
+      }
+  }
+}
+  

@@ -1,22 +1,20 @@
 import './App.scss';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
-import ArticleFour from './Components/Main/ArticleFour';
-import ArticleOne from './Components/Main/ArticleOne';
-import ArticleThree from './Components/Main/ArticleThree';
-import ArticleTwo from './Components/Main/ArticleTwo';
 
+import { BrowserRouter } from 'react-router-dom';
+import Navigation from './Components/Navigation/Navigation';
+import AppRouter from './Components/AppRouter/AppRouter';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <Header />
-      <ArticleOne />
-      <ArticleTwo />
-      <ArticleThree />
-      <ArticleFour />
+      <AppRouter />
       <Footer />
     </div>
+    </BrowserRouter>
   );
 }
 

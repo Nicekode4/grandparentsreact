@@ -1,3 +1,5 @@
+import Navigation from "../Navigation/Navigation"
+
 const Header = () => {
     return (
         <header>
@@ -8,14 +10,8 @@ const Header = () => {
                     <p>"Der er rigtigt at vi hver især kun kan bidrage lidt til den samlede løsning"</p>
                     <p>"Lige så rigtigt er det at vi hver især bidrager en smule til det"</p>
                 </div>
-                
+                <Navigation />
             </article>
-            <nav>
-                    <a href="start.html">Start</a>
-                    <a href="title">Dit CO2</a>
-                    <a href="cleanup.html">Clean up</a>
-                    <a href="title">Tilmeld dig</a>
-                </nav>
         </header>
     )
 }
