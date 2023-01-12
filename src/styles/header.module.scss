@@ -11,7 +11,7 @@ header{
   background-image: url("../../src/Images/Bg-Hero-Blue.png");
   background-size: cover;
   text-align: center;
-  
+position: relative;
   
   article{
     display: grid;
@@ -36,6 +36,7 @@ header{
 @media screen and (min-width: 992px) {
 
 header{
+
   background-image: url("../../src/Images/Bg-Hero-Blue.png");
   background-size: cover;
   text-align: center;

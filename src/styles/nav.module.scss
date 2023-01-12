@@ -7,43 +7,61 @@
 
 @media screen and (min-width: 600px) {
 
-  nav{
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    text-align: center;
-    width: 100vw;
-    li{
-      height: 4vh;
-      width: 5%;
-      a{
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
+  .div1{
+    position: sticky;
+        top: 0;
+        background-color: $blue;
+      nav{
+        display: flex;
+        justify-content: right;
+        list-style: none;
+        text-align: center;
+        width: 98vw;
+        li{
+          margin-right: 4vh;
+          height: 4vh;
+          width: 5%;
+          a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+          
+      
+        }    
+        li:hover{
+           background-color: $light-blue; 
+          }
       }
     }
-  }
 }
 
 //
 // //DESKTOP
 //
 @media screen and (min-width: 992px) {
-
+.div1{
+position: sticky;
+    top: 0;
+    background-color: $blue;
   nav{
-    display: flex;
-    justify-content: right;
     list-style: none;
     text-align: center;
-    width: 98vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
     li{
+      padding: 1vh;
+      padding-bottom: 0;
       margin-right: 4vh;
-      height: 4vh;
-      width: 5%;
+      width: 10%;
+      vertical-align: middle;
       a{
         color: white;
         text-decoration: none;
         text-transform: uppercase;
+        
       }
       
   
@@ -52,5 +70,7 @@
        background-color: $light-blue; 
       }
   }
+}
+  
 }
   
